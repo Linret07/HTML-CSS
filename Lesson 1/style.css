@@ -1,6 +1,10 @@
 p{
     color: green;
     font-size: 32px;
+    width: 30%;
+    background-color: lightpink;
+    height: 50%;
+    display: inline-block;
 }
 h2,h3{
     color: orange;
@@ -12,4 +16,13 @@ sub,sup{
 span{
     font-size: 40px;
     color: darkmagenta;
+    width: 30%;
+    background-color: lightpink;
+    height: 50%;
+    display: inline-block;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
