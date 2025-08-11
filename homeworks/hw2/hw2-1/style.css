@@ -36,6 +36,12 @@ h1{
     width: 60%;
     object-fit: cover;
 }
+p{
+    font-size: x-large;
+    text-align: center;
+    padding: 20px 0;
+ }
+
 
 
 
