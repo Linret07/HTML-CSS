@@ -1,0 +1,52 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+body{
+    background-color: rgb(79, 129, 91);
+    padding-top: 50px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 15px 0
+}
+.card{
+    background-color: #d3fbd3;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #d3fbd3;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 1s;
+}
+.card:hover{
+    font-size: large;
+    background-color: #d3fbd3;
+    transition: 2s;
+    transform: scale(1.05);
+}
+.card p{
+    line-height: 2;
+    text-align: justify;
+}
+.card b{
+    font-weight: bolder;
+    font-size: 23px;
+
+
+
+}
+
+
+
+
+
+
