@@ -27,12 +27,13 @@ h1{
     align-items: center;
     flex-direction: column;
     gap: 20px;
-}
-.card p{
-    font-size: 25px;
-    font-weight: 600;
 
 }
+.card p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .card img{
     width: 60%;
     object-fit: cover;
