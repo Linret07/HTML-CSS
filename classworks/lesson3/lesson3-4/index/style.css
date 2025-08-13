@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*---------------------header----------------*/
+.active-link{
+    color: #4f815b;
+}
+header{
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Orbitron, sans-serif ;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 26px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    color: #8a8989;
+    font-size: 20px;
+}
+/*---------------------------------------main-----------------------------------------------*/
+main{
+    height: 90vh;
+    background-image: url("https://media.istockphoto.com/id/2153573059/uk/%D1%84%D0%BE%D1%82%D0%BE/mountain-covered-with-a-coniferous-fir-tree-forest-scenic-landscape-from-carpathian-mountains.jpg?s=2048x2048&w=is&k=20&c=u_vneXBPB0BSLRA0nQQ7R4irpRGEOb-hbAlRTKj1tkE=");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Orbitron, sans-serif;
+    padding-top: 50px;
+}
+main p{
+    font-size: 20px;
+}
+main h1 {
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+    main button{
+        width: 160px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        transition: 2s;
+    }
+main button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+
