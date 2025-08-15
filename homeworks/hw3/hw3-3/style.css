@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+#green{
+    background-color: lightgreen;
+}
+#purple{
+    background-color: lightcoral;}
+#blue{
+    background-color: lightskyblue;
+}
+#blue, #purple, #green{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    padding: 10%;
+}
+section p{
+    width: 90%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+section ul{
+    font-size:8vh;
+}
+h1{
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+

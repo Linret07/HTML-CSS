@@ -36,3 +36,6 @@ nav ul a{
     justify-content: center;
     align-items: center;
 }
+button img{
+    font-size: 20%;
+}
