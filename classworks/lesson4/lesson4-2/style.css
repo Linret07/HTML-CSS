@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rectangle{
+    height: 200px;
+    border-radius: 50px;
+    border: 10px solid #302CA9;
+    background: #A53ABA;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.50);
+    margin: 160px auto 0 auto;
+}
