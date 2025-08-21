@@ -250,13 +250,20 @@ header nav a{
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-
+    margin-bottom: 200px;
+}
+.free div{
+    width: 330px;
+    height: 441px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F8F8F8;
 }
 .free h2{
     color: #1D293F;
     text-align: center;
     font-family: "DM Sans", sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px; /* 93.333% */
@@ -283,16 +290,41 @@ header nav a{
     letter-spacing: -0.531px;
 }
 .free button{
-    width: 201px;
+    width: 285px;
+    height: 60px;
     color: #5454D4;
-    text-align: center;
     font-family: "DM Sans", sans-serif;
     font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+
+}
+.free div:hover{
+    color: white;
+    border-radius: 10px;
+    background: #FF7143;
+    font-size: large;
+    transition: 1s;
+    transform: scale(1.15);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.531px;
-    border: none;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.free button:hover{
+    width: 305px;
+    height: 60px;
+    border-radius: 10px;
+    background: #9F3919;
 }
 
 
