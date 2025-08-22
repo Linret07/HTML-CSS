@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    background: #8D8484;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}
+.left{
+    width: 70%;
+}
+.right{
+    width: 30%;
+}
+.content-1{
+    background: #776969;
+    height: 20vh;
+}
+.content-2{
+    background: #643030;
+    height: 20vh;
+}
+.content-3{
+    background: #441818;
+    height: 20vh;
+}
+.spam-1{
+    height: 30vh;
+    background: #937575;
+}
+.spam-2{
+    height: 30vh;
+    background: #644C4C;
+}
+

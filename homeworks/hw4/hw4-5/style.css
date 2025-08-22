@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+header{
+    height: 4vh;
+    background: #D9D9D9;
+}
+main{
+    display: flex;
+}
+.main{
+    height: 74vh;
+    width: 60vw;
+    background: #A4A4A4;
+}
+.top{
+    width: 40vw;
+    height: 37vh;
+    background: #7F7A7A;
+}
+.bottom{
+    background: #615050;
+    width: 40vw;
+    height: 37vh;
+}
+.footer-1{
+    height: 11vh;
+    background: #D9D9D9;
+}
+.footer-2{
+    height: 11vh;
+    background: #AFA9A9;
+}
