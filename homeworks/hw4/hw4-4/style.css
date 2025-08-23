@@ -7,7 +7,6 @@ header{
 }
 main{
     display: flex;
-    width: 100%;
 }
 footer{
     height: 20vh;
@@ -22,21 +21,31 @@ footer{
 .content-1{
     background: #776969;
     height: 20vh;
+    width: 73vw;
 }
 .content-2{
     background: #643030;
     height: 20vh;
+    width: 73vw;
 }
 .content-3{
     background: #441818;
     height: 20vh;
+    width: 73vw;
 }
 .spam-1{
     height: 30vh;
+    width: 27vw;
     background: #937575;
 }
 .spam-2{
     height: 30vh;
+    width: 27vw;
     background: #644C4C;
+}
+header, main, footer, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
