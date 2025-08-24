@@ -1,22 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0;
 }
 header{
     height: 20vh;
     background: #8D8484;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
 }
 main{
     display: flex;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
 }
 footer{
     height: 20vh;
     background: #BDBDBD;
-}
-.left{
-    width: 70%;
-}
-.right{
-    width: 30%;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .content-1{
     background: #776969;
