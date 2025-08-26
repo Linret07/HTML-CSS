@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 body{
     background: #1E1E1E;
@@ -149,7 +151,7 @@ ul a{
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
-    margin: 0 621px 36px 623px;
+    margin: 0 571px 36px 573px;
 }
 h3{
     width: 895px;
@@ -157,11 +159,10 @@ h3{
     text-align: center;
     font-family: "Bowlby One", sans-serif;
     font-size: 70px;
-    font-style: normal;
     font-weight: 400;
     line-height: 101.896%; /* 71.328px */
     text-transform: uppercase;
-    margin: 0 272px 33px 273px;
+    margin: 0 222px 33px 223px;
 }
 
 
