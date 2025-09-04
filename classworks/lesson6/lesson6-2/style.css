@@ -1,0 +1,19 @@
+div :last-child{
+    color: #2A7B9B;
+}
+/*div p:first-line{*/
+/*    color: #ff0a30;*/
+/*    font-size: 20px;*/
+/*}*/
+div :last-of-type{
+    color: #ffde70;
+}
+div p:first-letter{
+    color: rgba(128, 8, 107, 0.77);
+    font-size: 20px;
+}
+ul li:nth-last-child(2n+3){
+    color: #df17d2;
+}
+
+
