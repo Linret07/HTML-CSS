@@ -1,0 +1,25 @@
+@keyframes krab {
+    from{
+       transform: translateX(0)
+    }
+       50%{ transform: translateX(400px)
+    }
+    80%{
+        transform: translateX(-400px)
+    }
+    to{
+        transform: translateX(0)
+    }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.krab{
+    animation: krab 10s ease-in-out infinite;
+    height: 70px;
+}
+
