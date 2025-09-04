@@ -1,0 +1,24 @@
+/*
+100б-inline
+100б-id
+10б-class
+1б-tag
+*/
+body p.lorem{
+    color: #df17d2;
+}
+p.text{
+    color: #379a49;
+}
+p{
+    color: #f9ff5d;
+}
+section p.lorem{
+    color: #000000;
+}
+section div p.text{
+    color: coral;
+}
+section div.box p.text{
+    color: #2f6e0f;
+}
