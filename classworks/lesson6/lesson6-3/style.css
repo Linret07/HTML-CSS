@@ -1,0 +1,13 @@
+div :last-child{
+    color: #df17d2;
+}
+/*div p::first-line{*/
+/*    color: #f80101;*/
+/*    font-size: 20px;*/
+/*}*/
+div p:last-of-type{
+    color: #2f6e0f;
+}
+ul li:nth-last-child(2n+3){
+    color: #dfb717;
+}
