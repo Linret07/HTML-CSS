@@ -1,0 +1,21 @@
+ul li::after{
+    content: "!!!!!";
+    color: #df17d2;
+}
+ul{
+    padding-inline-start: 0;
+}
+ul li{
+    list-style-type: none;
+}
+ul li::before{
+    content:"";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("https://img.icons8.com/keek/100/cat.png");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+
