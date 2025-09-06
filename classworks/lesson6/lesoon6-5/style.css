@@ -9,3 +9,22 @@ textarea{
     resize: none;
     width: 100px;
 }
+.form-reg{
+    border: 3px solid #f3f38b;
+    width: 30%;
+    border-radius:  20px;
+    padding:50px
+}
+input[type=text]{
+    background: lightcyan;
+    border: 2px solid lightgreen;
+    border-radius: 2px;
+    color: cornflowerblue;
+    font-family: sans-serif;
+}
+input[type=text]::placeholder{
+    color: white;
+}
+input[type=text]:focus {
+    outline: 2px solid #3d0f6e;
+}
