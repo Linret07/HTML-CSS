@@ -1,0 +1,13 @@
+.yes{
+appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    margin-bottom: -4px;
+    border-radius: 2px;
+}
+.yes:checked{
+    background: yellow;
+    background-image: url("https://img.icons8.com/keek/100/cat.png");
+    background-size: cover;
+}
