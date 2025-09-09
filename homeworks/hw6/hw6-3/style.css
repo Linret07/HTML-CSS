@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+}
+.entrance{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 85vh;
+    border: 2px solid #e4dfdf;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.entrance label>input{
+    width:250px;
+    height: 40px;
+    border: 2px solid #e4dfdf ;
+    border-radius: 1px;
+    margin-left: 50px;
+    padding: 10px;
+}
+input[type="password"]{
+    margin-top: 10px;
+}
+.button{
+    width: 250px;
+    height: 40px;
+    background-color: #4bb9e8;
+    border: none;
+    border-radius: 10px;
+    margin-left: 55px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+}
+.entrance h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Dancing Script", cursive;
+}
+.dancing-script{
+                     font-family: "Dancing Script", cursive;
+                     font-optical-sizing: auto;
+                     font-style: normal;
+}
+.entrance p{
+    text-align: center;
+    color: #878484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registration{
+    display: inline-flex;
+    width: 370px;
+    height: 7vh;
+    border: 2px solid #e4dfdf;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.facebook img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.entrance a{
+    text-decoration: none;
+    color: #3d3d97;
+}
+.entrance a:nth-last-child(2){
+    display: flex;
+    justify-content: center;
+}
+body a:last-child{
+    text-decoration: none;
+    margin-top: 17px;
+    margin-left: 15px;
+    color: #0894c5;
+}
+.registration p{
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+
+
+
+
+
+
