@@ -1,0 +1,9 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    z-index: -1;
+}
