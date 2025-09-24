@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.wrapper {
+    display: grid;
+    height: 100vh;
+    background-color: lemonchiffon;
+    grid-template-columns: repeat(4, 300px) ;
+    justify-content: center;
+    align-content: center;
+}
+.wrapper img{
+    width: 250px;
+}
+
