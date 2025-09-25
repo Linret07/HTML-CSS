@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px ;
+}
+.carousel img{
+    height: 50vh;
+    object-fit: cover;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    padding: 40px;
+
+}
